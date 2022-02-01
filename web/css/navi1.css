@@ -1,0 +1,98 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+.col-1 {width: 7.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 67.80%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.outerborder{position:relative;border:2px solid white;padding-top: 0px}
+.leftspace{border:2px solid white}
+.contentsborder{border: 2px solid white;padding-top: 0px}
+.slider{border: 2px solid white;padding-top: 0px;}
+.featured_slide{display:block; position:relative; width:960px;top:10px; margin:0 auto;}
+.modulesborder{border: 2px solid bisque}
+.module{border: 2px solid #f0f0f0;}
+.module a{text-decoration: none;color:#640032;}
+//.module:hover{border: 2px solid #ffccff}
+.modulehead{
+        border: 2px solid white;
+        font-size: 19px;
+	font-weight:bold;
+	color:#640032;
+	text-align: center;
+        padding: 0px;
+    }
+.moduleimage{border: 2px solid white;padding: 0px}
+/*----------Image slide in module----------*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+.slider { overflow: hidden; }
+.slider figure img { width:295.5px;height:250px;}
+.slider figure { 
+  position: relative;
+  width: 1000%;
+  margin: 0;
+  right: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
+}
+.modulelink{border: 2px solid #f0f0f0;min-height: 200px;}
+.modulelink a{text-decoration: none;color: #660066}
+//.modulelink a:hover{text-decoration:underline}
+.newarrivalborder{border: 2px solid bisque;}
+.newarrival{border: 2px solid #f0f0f0;}
+.newarrival .boxnew {	
+    //height: 140px;
+    border: 2px solid white;
+}
+.arrival {border: 2px solid #f0f0f0;color: #CC0033}
+.arrival .boxnew a {
+	font-size: 13pt;
+	font-style: normal;
+	color: #903;
+	text-decoration: none;
+	text-align:center;
+       
+}
+//.arrival .boxnew:hover{border: 2px solid #ffccff;}
+
+.comingsoon{border: 2px solid #f0f0f0}
+
+.footerborder{border: 2px solid #ffffff;padding: 0px}
+.t{
+    float:left;
+    padding: 15px;
+}
+
+

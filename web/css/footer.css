@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mainfooter{position:relative;height:200px;}
+#subfooter1{height:150px;background-image:url(../images/bc.png);}
+#subfooter2{position:relative;height:50px;border:2px solid #009;background-color:#2D002D;}
+
+#subfooter1 #footeritems{position:relative;
+	width:1090px;
+	height:150px;
+	
+	margin-left:100px;	}
+
+
+#subfooter1 #info{
+position:relative;
+width:190px;
+height:150px;
+
+float:left;
+margin-left:10px;
+padding-left:10px;
+}
+
+
+#subfooter1 ul{ 
+display:inline;list-style:none;
+}
+#subfooter1 a{color:#636;text-decoration:none}
+#subfooter1 a:hover{color:#00C;text-decoration:underline}
+#h6 { font-size:23px; font-weight:bold;color:#009}
+
+
+#subfooter2 #footer2items{position:relative;
+	width:1090px;
+	height:50px;
+	margin-left:100px;	}
+	
+#footer2items li{display:inline;list-style:none;color:#FFF}
+#subfooter2 #footer2items a{color:#FFF}
+#footer2items a:hover{color:#900}
+
+/*
+#footer{
+    position:relative;
+	top:50px;
+	height:150px;
+	/*border:2px solid #999;*/
+	/*background-image:url(../images/bc.png);*/
+/*    color:#636;
+	font-family:Calibri Light, "Calibri", "Trebuchet MS"}
+#footercontainer{
+	position:relative;
+	width:1090px;
+	height:150px;
+	/*border:2px solid #999;*/
+/*	margin-left:100px;	
+}
+#info{
+position:relative;
+width:190px;
+height:150px;
+/*border:2px solid #999;*/
+/*float:left;
+margin-left:10px;
+padding-left:10px;
+}
+#footer ul{ 
+display:inline;list-style:none;
+}
+#footer a{color:#636;text-decoration:none}
+#footer a:hover{color:#00C;text-decoration:underline}
+#h6 { font-size:23px; font-weight:bold;color:#009}
+
+/*-----------Footer1------*/
+
+/*#footer1{
+	position:relative;top:50px;height:40px;
+}
+#footercontents{
+position:relative;height:40px;width:1090px;margin-left:100px;padding-top:1px;
+}
+#footercontents li{display:inline;list-style:none}
+
+#footer1 a:hover{color:#F00}
+*/

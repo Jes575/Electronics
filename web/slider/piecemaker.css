@@ -1,0 +1,22 @@
+P-ITALIC{
+	display:block;
+	margin-bottom:10px;
+	color:#FF0000;
+	font-family:Verdana;
+	font-style:italic;
+	font-weight:normal;
+	font-size:12px;
+	line-height:18px;
+	text-align:left;
+	letter-spacing:0.5px;
+	}
+
+A{
+	display:inline;
+	color:#0066CC;
+	}
+
+A:HOVER{
+	display:inline;
+	color:#111111;
+	}

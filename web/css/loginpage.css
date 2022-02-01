@@ -1,0 +1,120 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+	//border: 1px solid #000;
+}
+.col-1 {width: 7.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 67.80%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/***** Outer Div *****/
+
+.outertab{padding-top: 0px;}
+.toptab {
+	
+	padding-top: 0px;
+	
+}
+
+.firstdiv {
+	padding: 0px;
+	background: #EFEFEF;
+        height: 149px;
+}
+
+/***** Inner login Div *****/
+
+.logintab {
+	float:right;
+	height: 149px;
+	padding-top: 25px;
+	background: #EFEFEF;
+}
+
+.logintab p {
+	margin-top: -22px; 
+	padding:0px; 
+	font-family:Calibri, 'Calibri Light', 'Comic Sans MS'; 
+	font-size:14pt; 
+	font-weight:bold;
+}
+
+.logintab input {
+	font-family: Calibri, "Calibri Light", "Comic Sans MS";
+	font-size: 13pt;
+	display: block;
+	float:left;
+	font-weight: bold;
+	border-radius: 3px;
+	border-width: thin;
+	padding-left: 5px;
+}
+
+.logintab button {
+	font-family: Calibri, "Calibri Light", "Comic Sans MS";
+	font-size: 12pt;
+	font-weight: bold;
+	display: block;
+	border-radius:3px;
+	background: #0CF;
+	border-width:thin;
+	width: 100px;
+	height: 25px;
+	outline: none;
+	margin-top: -2px;	
+}
+
+/***** Middle div *****/
+
+.createtab input {
+	font-family: Calibri, "Calibri Light", "Comic Sans MS";
+	font-size: 14pt;
+	float:left;
+	font-weight: bold;
+	border-radius: 3px;
+	border-width: thin;
+	padding-left: 5px;
+	margin: 5px;
+}
+ 
+.createtab button {
+	font-family: Calibri, "Calibri Light", "Comic Sans MS";
+	font-size: 13pt;
+	font-weight: bold;
+	display: block;
+	border-radius:3px;
+	background: #0CF;
+	border-width:thin;
+	width: 200px;
+	height: 25px;
+	outline: none;
+	margin: 10px auto;	
+}
+
+.createtab {
+	margin-top: -60px;
+	background: #EFEFEF;
+}
+.footerborder{border: 2px solid #ffffff;padding: 0px}
+
+
